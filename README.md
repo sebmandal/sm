@@ -5,5 +5,5 @@ my personal shell manager with a few useful functions like project management an
 ## installation
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/sebmandal/dotfiles/main/install.sh | zsh
+curl -fsSL https://raw.githubusercontent.com/sebmandal/sm/main/install.sh | zsh
 ```

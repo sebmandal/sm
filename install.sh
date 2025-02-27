@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-REPO_URL="https://github.com/sebmandal/dotfiles.git"
+REPO_URL="https://github.com/sebmandal/sm.git"
 INSTALL_DIR="$HOME/.sm"
 ZSHRC="$HOME/.zshrc"
 BIN_DIR="$INSTALL_DIR/bin"
