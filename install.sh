@@ -18,6 +18,9 @@ else
 	git clone "$REPO_URL" "$INSTALL_DIR"
 fi
 
+# Ensure sm.sh is executable
+chmod +x "$INSTALL_DIR/sm.sh"
+
 PATH_LINE="export PATH=\"$HOME/.sm/bin:$PATH\""
 
 if grep -Fq "$PATH_LINE" "$ZSHRC"; then
